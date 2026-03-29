@@ -1,11 +1,11 @@
-CREATE DATABASE aulasistemaweb;
+CREATE DATABASE swii5;
 
-USE aulasistemaweb;
+USE swii5;
 
 CREATE TABLE user905 (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    password VARCHAR(100),
-    email VARCHAR(100),
-    country VARCHAR(100)
+    name VARCHAR(4000),
+    password VARCHAR(4000),
+    email VARCHAR(4000),
+    country VARCHAR(4000)
 );
